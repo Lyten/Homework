@@ -1,0 +1,4 @@
+// Going into the directory of Intro-Java-Homework/src
+using the commands 
+javac SumTwoNumbers.java  //Creates a SumTwoNumbers.class in the same folder
+java SumTwoNumbers

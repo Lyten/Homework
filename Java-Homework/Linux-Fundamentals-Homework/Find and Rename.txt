@@ -1,0 +1,18 @@
+[Using Ubuntu]
+Open Command Line (Ctrl+Alt+T)
+
+Using the command [find]
+
+find [name of directory] -iname "*c"
+
+// iname is to enable case-insenitive search
+// The format of directory is /****/****/***/searched folder
+
+Using the command [rename]
+
+Rename -v 's/\.c$/\.cpp/' *.htm 
+
+// -v will output the names of the files when it renames them.
+// The 's' is for substitute (syntax is s/old/new/)
+// The '$' is for the end of the string
+// The '*' is for every file (ending with .htm)
