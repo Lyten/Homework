@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#background {
+        width: 1200px;
+        height: 500px;
+        background: #00923e;
+        padding-top:30px;
+        padding-left:30px;
+}
+
+table{
+        border:2px solid black;
+        border-radius:8px;
+        background: #ffffff;
+        width: 1000px;
+        height: 450px;
+        margin: auto;
+}
+
+table td{
+    border: 2px solid black;
+    font-size: 25px;
+    text-align:center;
+    text-transform: capitalize;
+}
+table tr td:last-child{
+        text-align: center;
+}
+table td:nth-child(1){
+        text-align: right;
+        padding-right: 5px;
+}
+
+table td:nth-child(3){
+        text-align: left;
+        padding-left: 5px;
+}
+
+table td:nth-child(5){
+        text-align: right;
+        padding-right: 5px;
+}
+table td:nth-child(6){
+        border:none;
+}
+
+table td:nth-child(9){
+        text-align: left;
+        padding-left: 5px;
+}
+table td:nth-child(7){
+        border: none;
+}
+table td:nth-child(8){
+        border:none;
+}
+table td:nth-child(10){
+        width:
+}
+
+#firstRow {
+    background: #f8c711;
+    padding-top: 0;
+    font-weight: bold;
+    height: 50px;
+}
+
+table tr {
+    height: 65px;
+}
+
+.gray-row {
+    background: #c8c8c8;
+}
+
+table tr:nth-child(2) td:nth-child(1) div.flag {
+        content:url(flags/brazil.png);
+            float: right;
+        margin-leftt: 5px;
+}
+
+table tr:nth-child(3) td:nth-child(1) div.flag {
+    content:url(flags/spain.png);
+    float: right;
+    margin-left: 5px;
+}
+
+table tr:nth-child(4) td:nth-child(1) div.flag {
+    content:url(flags/italy.png);
+    float: right;
+    margin-left: 5px;
+}
+
+table tr:nth-child(5) td:nth-child(1) div.flag {
+    content:url(flags/argentina.png);
+    float: right;
+    margin-left: 5px;
+}
+
+table tr:nth-child(6) td:nth-child(1) div.flag {
+    content:url(flags/germany.png);
+    float: right;
+    margin-left: 5px;
+}
+
+table tr:nth-child(2) td:nth-child(3) div.flag {
+    content:url(flags/mexico.png);
+    float: left;
+    margin-right: 5px;
+}
+
+table tr:nth-child(3) td:nth-child(3) div.flag {
+    content:url(flags/netherlands.png);
+    float: left;
+    margin-right: 5px;
+}
+
+table tr:nth-child(4) td:nth-child(3) div.flag {
+    content:url(flags/england.png);
+    float: left;
+    margin-right: 5px;
+}
+
+table tr:nth-child(5) td:nth-child(3) div.flag {
+    content:url(flags/bosnia.png);
+    float: left;
+    margin-right: 5px;
+}
+
+table tr:nth-child(6) td:nth-child(3) div.flag {
+    content:url(flags/portugal.png);
+    float: left;
+    margin-right: 5px;
+}
+
+
+input[type="bet"]:enabled.image {
+        background: url(buttons/green-bet.png);
+        border: none;
+        height: 40px;
+        width: 40px;
+}
+input[type="bet"]:disabled.image {
+        background: url(buttons/red-bet.png);
+        border: none;
+        height: 40px;
+        width: 40px;
+}
