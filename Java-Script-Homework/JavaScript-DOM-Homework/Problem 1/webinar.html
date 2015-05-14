@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel=stylesheet type="text/css" href="style/webinar.css">
+    <script type="text/javascript" src="script/webinar.js"></script>
+</head>
+<body>
+	<div id="form">
+		<h1>Регистрация за уебинар</h1>
+		
+	<form action="/" method="post">
+		<div>
+			<p>Име и Фамилия: <span>*   </span></p>
+			<input type="text"name="name" value=" " />
+			
+			<p >Адрес:</p>
+			<input type="text" name="name" value=" " />
+			
+			<p >Населено място:</p>
+			<input type="text" name="name" value=" " />
+			
+			<p >Пощенски код:</p>
+			<input type="text" name="name" value=" " />
+			
+			<p>Email: <span>*     </span></p>
+			<input type="email" name="name" value=" " />
+			
+			<p>Телефон:<span>*     </span></p>
+			<input type="text" name="name" value=" " />
+			
+			<p>Дата на семинара:<span>*     </span></p>
+			<input type="text" name="name" value="mm/dd/yyyy" />
+			
+			<p>Желая фактура</p>
+			<input type="checkbox" id="checkBox" name="name" value=" " onclick="toggleSub(this, 'divShow');" />
+			
+			<div id="divShow">
+			
+				<p>Фирма/Организация: <span>*   </span></p>
+				<input type="text" name="name" value=" " />
+				
+				<p>МОЛ:<span>*  </span></p>
+				<input type="text" name="name" value=" " />
+				
+				<p>ЕИК:<span>*  </span></p>
+				<input type="text" name="name" value=" " />
+				
+				<p>ИН по ДДС:<span>*    </span></p>
+				<input type="text" name="name" value=" " />
+				
+				<p>Адрес:<span>* 	</span></p>
+				<input type="text" name="name" value=" " />
+			</div>
+			
+			<br>
+			<button type="button">Регистрирай се</button>
+			<button type="button">Изчисти</button>
+		</div>
+	
+	</form>
+</div>
+</body>
+</html>
