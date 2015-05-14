@@ -1,0 +1,22 @@
+body {
+    max-width: 700px;
+}
+#upload {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#searchbox {
+    width: 20%;
+    height: 20px;
+}
+
+#button {
+    vertical-align: bottom;
+}

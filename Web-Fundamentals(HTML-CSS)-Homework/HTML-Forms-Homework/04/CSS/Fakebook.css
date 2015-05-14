@@ -1,0 +1,109 @@
+body {
+    max-width: 900px;
+    height: 500px;
+    background-color: #3B5997;
+    color: white;
+}
+#registration {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+}
+h2, h4 {
+    text-align: center;
+    margin-top: 0px;
+}
+legend {
+    text-align: center;
+}
+#form {
+    margin-left: 10px;
+}
+#leftfield {
+    width: 320px;
+    height: auto;
+    float: left;
+}
+#left {
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+.non-important {
+    width: 130px;
+    border-radius: 3px;
+    margin: 5px;
+    display: inline;
+}
+#birthday {
+    border-radius: 3px;
+    border:none;
+    width: 70%;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.label {
+    display: block;
+}
+#gender {
+    margin-bottom: 30px;
+}
+#rightfield {
+    width: 450px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+}
+#right {
+    width: 430px;
+    height: auto;
+    float: left;
+    border-radius: 3px;
+}
+input, select {
+    border-radius: 3px;
+
+}
+.address {
+    width: 60px;
+    margin: 3px;
+    margin-top: 4px;
+}
+.important-info {
+    margin: 3px;
+}
+.ewww {
+    margin: 2px;
+    width: 145px;
+}
+#water-meter {
+    width: 110px;
+}
+textarea {
+    width: 440px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+#buttons {
+    width:830px;
+    float: left;
+    margin-top: 20px;
+}
+#clear {
+    width: 320px;
+    height: 60px;
+    margin-left: 3px;
+    float: left;
+    color: #3B5997;
+    font-size: 15px;
+}
+#submit {
+    margin-left: 30px;
+    width: 475px;
+    height: 60px;
+    float: left;
+    color: #3B5997;
+    font-size: 30px;
+}
